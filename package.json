@@ -4,7 +4,9 @@
   "description": "A framework base on koa with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./app.ts",
+    "demo": "ts-node ./demo/test.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/linyongkangm/Zero.ts/issues"
   },
-  "homepage": "https://github.com/linyongkangm/Zero.ts#readme"
+  "homepage": "https://github.com/linyongkangm/Zero.ts#readme",
+  "dependencies": {
+    "@types/koa-router": "^7.0.27",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.44",
+    "@types/node": "^9.4.6"
+  }
 }
